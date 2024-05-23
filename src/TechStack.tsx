@@ -1,6 +1,6 @@
 import { StyledTechStack } from './TechStack.styled'
 import Tech from './Tech'
-import techStackData from './techStackData'
+import techStackData from './data/techStackData'
 
 const TechStack: React.FC = () => {
 
