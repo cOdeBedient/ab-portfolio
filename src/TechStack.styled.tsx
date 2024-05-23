@@ -3,8 +3,8 @@ import styled from "styled-components"
 export const StyledTechStack = styled.section`
 
     h3 {
-        margin-left: 2.7vw;
-        font-size: 22px;
+        margin-left: 2.2vw;
+        font-size: 26px;
         margin-bottom: 5px;
     }
 

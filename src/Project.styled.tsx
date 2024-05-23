@@ -10,22 +10,25 @@ export const StyledProject = styled.div`
     border-radius: 8px;
     padding: 10px;
     margin: 6px;
-    height: 150px;
+    height: 170px;
+    background-color: black;
 
     .no-tagline-container {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;  
+        justify-content: center;  
         font-size: 17px;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .project-details {
         display: flex;
         flex-direction: column;
         width: 60%;
+
+
     }
 
     .deployed-repo {
@@ -43,11 +46,18 @@ export const StyledProject = styled.div`
         margin-bottom: 0;
         margin-top: 0;
         text-align: center;
+        font-weight: 500;
     }
 
     h4 {
         margin-bottom: 0;
         margin-top: 0;
+    }
+
+    a {
+        color: white !important;
+        text-decoration: none !important;
+        font-weight: 200;
     }
 
     img {

@@ -12,6 +12,7 @@ export const StyledTech = styled.div`
     margin: 6px;
     font-size: 17px;
     font-weight: bold;
+    background-color: black;
 
     img {
         width: 1.8vw;

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
             <StyledFooter>
                 <button>github</button>
                 <button>insta</button>
-                <button>linkedIN</button>
+                <button>linkedIn</button>
             </StyledFooter>
         </>
     )
