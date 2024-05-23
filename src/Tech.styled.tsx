@@ -4,7 +4,7 @@ export const StyledTech = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 12vw;
+    width: 29%;
     border: 1px solid pink;
     border-radius: 8px;
     padding: 5px;

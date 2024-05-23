@@ -1,13 +1,15 @@
 import styled from "styled-components"
 
 export const StyledProjects = styled.section`
+    display: flex;
+    flex-direction: column;
 
     h3 {
-        margin-left: 5.5vw;
+        margin-left: 2.7vw;
         font-size: 22px;
         margin-bottom: 5px;
     }
-
+    
     .projects {
         display: flex;
         justify-content: center;
