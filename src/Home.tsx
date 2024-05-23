@@ -9,16 +9,19 @@ const Home: React.FC = () => {
         <StyledHome>
             <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" />
             <NavBar />
-            <div className="header-with-flower">
-                <div className="ab-header">
-                    <h1>Hello, I'm Adam</h1>
-                    <h2>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</h2>
+            <section className="main-elements">
+                <div className="header-with-flower">
+                    <div className="ab-header">
+                        <h1>Adam's Mood Board</h1>
+                        <h2>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</h2>
+                    </div>
+                    <img className="flower" src='/assets/single-flower.png' alt="flower" />
                 </div>
-                <img className="flower" src='/assets/single-flower.png' alt="flower" />
-            </div>
-            <TechStack />
-            <Projects />
-            <Footer />
+            
+                <TechStack />
+                <Projects />
+                <Footer />
+            </section>
         </StyledHome>
     )
 }

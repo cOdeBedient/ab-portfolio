@@ -1,13 +1,17 @@
 import styled from "styled-components"
 
 export const StyledHome = styled.main`
-    width: 30vw;
-    color: white;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+
+    .main-elements {
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
 
     .background {
         z-index: -1;
