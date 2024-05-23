@@ -2,8 +2,6 @@ import { StyledTechStack } from './TechStack.styled'
 import Tech from './Tech'
 import techStackData from './techStackData'
 
-
-
 const TechStack: React.FC = () => {
 
     const technologies: React.ReactNode[] =
@@ -14,7 +12,10 @@ const TechStack: React.FC = () => {
 
     return (
         <StyledTechStack>
-            {technologies}
+            <h3>Tech Stack</h3>
+            <div className='techs'>
+                {technologies}
+            </div>
         </StyledTechStack>
     )
 }
