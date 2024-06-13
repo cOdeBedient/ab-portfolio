@@ -6,6 +6,7 @@ export const StyledTechStack = styled.section`
         margin-left: 2.2vw;
         font-size: 26px;
         margin-bottom: 5px;
+        margin-top: 50px;
     }
 
     .techs {

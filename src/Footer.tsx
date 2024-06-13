@@ -4,9 +4,9 @@ const Footer: React.FC = () => {
     return (
         <>
             <StyledFooter>
-                <button>github</button>
-                <button>insta</button>
-                <button>linkedIn</button>
+                    <button>github</button>
+                    <button>instagram</button>
+                    <button>linkedIn</button>
             </StyledFooter>
         </>
     )

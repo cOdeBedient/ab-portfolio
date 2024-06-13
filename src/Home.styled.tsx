@@ -3,9 +3,10 @@ import styled from "styled-components"
 export const StyledHome = styled.main`
     width: 100%;
     display: flex;
+    background-color: #292929;
 
     .main-elements {
-        width: 80%;
+        width: 100%;
         color: white;
         display: flex;
         flex-direction: column;
@@ -19,7 +20,7 @@ export const StyledHome = styled.main`
         top: 0;
         left: 0;
         width: 100%;
-        filter: brightness(0%)
+        /* filter: brightness(0%) */
     }
 
     .header-with-flower {
@@ -42,7 +43,7 @@ export const StyledHome = styled.main`
     h1 {
         font-size: 45px;
         margin-bottom: 10px;
-        margin-top: 50px;
+        margin-top: 100px;
         width: 37vw;
     }
 
@@ -50,7 +51,7 @@ export const StyledHome = styled.main`
         font-size: 24px;
         font-weight: 500;
         margin-top: 10px;
-        margin-bottom: 60px;
+        margin-bottom: 100px;
         width: 32vw;
     }
 
