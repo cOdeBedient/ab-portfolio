@@ -86,7 +86,7 @@ export const StyledHomeNew = styled.main`
         font-size: 58px;
         margin-bottom: 0px;
         margin-top: 0px;
-        width: 37vw;
+        width: fit-content;
         margin-left: -3px;
     }
 
@@ -97,5 +97,71 @@ export const StyledHomeNew = styled.main`
         margin-bottom: 100px;
         width: 32vw;
     }
+
+    .title {
+        display: flex;
+        height: 116px;
+        overflow: hidden;
+
+        p {
+            margin: 0;
+            margin-left: 10px;
+        }
+    }
+
+    /* .wrapper{
+    box-sizing: content-box;
+    background-color: black;
+    height: 70px;
+    padding: 50px 30px;
+    display: flex; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+    } */
+
+    /* .words{
+        overflow: hidden;
+        margin-bottom: -35px;
+    } */
+
+    /* span {
+        display: block;
+        height: 100%; */
+        /* padding-left: 10px; */
+        /* color: #d690a8;
+        animation: spin_words 6s infinite;
+        font-size: 58px;
+        font-family: "Pacifico", cursive;
+        font-style: normal;
+        font-weight: 100;
+        margin-top: 25px;
+    } */
+
+@keyframes spin_words{
+    10%{
+        transform: translateY(-120%);
+    }
+    25%{
+        transform: translateY(-120%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-240%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-360%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-480%);
+    }
+}
 
 `

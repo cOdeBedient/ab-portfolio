@@ -64,4 +64,14 @@ export const StyledProjectsNew = styled.main`
         width: 32vw;
     }
 
+    .link-home {
+        position: absolute;
+        z-index: 10;        
+        top: 20px;
+        left: 20px;
+
+        img {
+            width: 30px;
+        }
+    } 
 `

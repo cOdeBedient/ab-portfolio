@@ -1,6 +1,6 @@
 import { StyledProjects } from './Projects.styled'
 import projectsData from './data/projectsData'
-import Project from './Project'
+import Project from './version-1-components/Project'
 import ProjectNew from './ProjectNew'
 import { motion } from "framer-motion"
 

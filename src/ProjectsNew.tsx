@@ -1,21 +1,13 @@
 import { StyledProjectsNew } from './ProjectsNew.styled'
-import NavBar from './NavBar'
-import Footer from './Footer'
-import TechStack from './TechStack'
 import Projects from './Projects'
-import About from './About'
-import ScrollingLine from './ScrollingLine'
+import { Link } from 'react-router-dom'
 
 const ProjectsNew: React.FC = () => {
     return (
         <StyledProjectsNew>
-            
-            {/* <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" /> */}
-            <NavBar />
-            {/* <ScrollingLine /> */}
+            <Link to='/' className="link-home"><img src="/assets/tech-logos/home-button.svg" alt="link to home" /></Link>
             <section className="main-elements">
                 <Projects />
-                {/* <Footer /> */}
             </section>
         </StyledProjectsNew>
     )

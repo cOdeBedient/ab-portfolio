@@ -1,10 +1,10 @@
 import { StyledHome } from './Home.styled'
-import NavBar from './NavBar'
+import NavBar from '../NavBar'
 import Footer from './Footer'
-import TechStack from './TechStack'
-import Projects from './Projects'
-import About from './About'
-import ScrollingLine from './ScrollingLine'
+import TechStack from '../TechStack'
+import Projects from '../Projects'
+import About from '../About'
+import ScrollingLine from '../ScrollingLine'
 
 const Home: React.FC = () => {
     return (

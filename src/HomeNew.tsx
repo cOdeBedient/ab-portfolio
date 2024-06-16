@@ -1,10 +1,6 @@
 import { StyledHomeNew } from './HomeNew.styled'
 import NavBar from './NavBar'
-import Footer from './Footer'
-import TechStack from './TechStack'
-import Projects from './Projects'
-import About from './About'
-import ScrollingLine from './ScrollingLine'
+import TextCycle from './TextCycle'
 import { Link } from 'react-router-dom'
 
 const Home: React.FC = () => {
@@ -17,10 +13,13 @@ const Home: React.FC = () => {
             <img className="background" src='/assets/adam-head.jpg' alt="Adam's head" />
             <section className="main-elements">
                 <div className="header-with-flower">
-                    <div className="ab-header">
-                        <h1>Adam Bedient: <span>Genius</span></h1>
+                    <section className="ab-header">
+                        <div className="title">
+                            <h1>Adam Bedient:</h1>
+                            <TextCycle />
+                        </div>
                         <h2>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</h2>
-                    </div>
+                    </section>
                     <div className="button-div">
                         <Link to='/projects/' ><button>Projects</button></Link>
                         <Link to='/about/'><button>About Me</button></Link>

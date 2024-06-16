@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home'
+import Home from './version-1-components/Home'
 import HomeNew from './HomeNew'
 import ProjectsNew from './ProjectsNew'
 import AboutNew from './AboutNew'
