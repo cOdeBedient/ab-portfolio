@@ -19,6 +19,10 @@ export const StyledHomeNew = styled.main`
         }
     }
 
+    a {
+        cursor: pointer;
+    }
+
     span {
         color: #d690a8;
     }
@@ -66,6 +70,7 @@ export const StyledHomeNew = styled.main`
             font-weight: bold;
             background-color: #d690a8;
             border-radius: 20px;
+            cursor: pointer;
         }
 
         h2 {
@@ -98,10 +103,21 @@ export const StyledHomeNew = styled.main`
         width: 32vw;
     }
 
+    .black-box {
+        z-index: 100;
+        width: 600px;
+        height: 100px;
+        top: 375px;
+        position: absolute;
+        background-color: black;
+    }
+
     .title {
         display: flex;
-        height: 116px;
+        height: 110px;
         overflow: hidden;
+        width: 100%;
+        position: relative;
 
         p {
             margin: 0;

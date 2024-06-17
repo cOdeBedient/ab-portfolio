@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 const Home: React.FC = () => {
     return (
         <StyledHomeNew>
-            
             {/* <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" /> */}
             <NavBar />
             {/* <ScrollingLine /> */}
@@ -14,6 +13,7 @@ const Home: React.FC = () => {
             <section className="main-elements">
                 <div className="header-with-flower">
                     <section className="ab-header">
+                        {/* <div className="black-box"></div> */}
                         <div className="title">
                             <h1>Adam Bedient:</h1>
                             <TextCycle />
@@ -31,7 +31,6 @@ const Home: React.FC = () => {
                         <img src="/assets/tech-logos/linkedin.svg" alt="github logo" />
                     </div> */}
                     {/* <img className="flower" src='/assets/flower-bigger-4.png' alt="flower" /> */}
-                
 {/*             
                 <TechStack />
                 <Projects />

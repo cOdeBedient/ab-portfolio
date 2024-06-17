@@ -6,6 +6,7 @@ export const StyledAboutNew = styled.main`
     background-color: #292929;
     height: 100vh;
     background-image: url(/assets/porty-1.jpg);
+    /* background-image: url(/assets/leaf-sun.jpg); */
 
     .main-elements {
         width: 100%;

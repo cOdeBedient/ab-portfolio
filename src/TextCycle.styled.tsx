@@ -8,4 +8,5 @@ export const StyledTextCycle = styled.p`
     font-weight: 100;
     height: 116px;
     overflow: hidden;
+    padding-right: 10px;
 `

@@ -7,6 +7,7 @@ export const StyledProjectsNew = styled.main`
     background-image: url(/assets/meadow3.jpg);
     background-image: url(/assets/forest.jpg);
     background-image: url(/assets/porty-1.jpg);
+    background-image: url(/assets/leaf-sun.jpg);
     /* background-image: url(/assets/porty-2.jpg); */
     /* background-image: url(/assets/porty-3.jpg); */
     /* background-image: url(/assets/porty-4.jpg); */

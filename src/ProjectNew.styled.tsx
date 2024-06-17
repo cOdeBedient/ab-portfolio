@@ -11,7 +11,7 @@ export const StyledProjectNew = styled.div`
     padding: 12px;
     margin: 1vw;
     height: 33vh;
-    background-color: #00000056;
+    background-color: #0000006c;
     /* -webkit-mask: linear-gradient(270deg, rgba(0,0,0,0) 5%, rgba(0,0,0,1) 15%);
     -webkit-mask: linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,0,0,1) 10%); */
     /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.668); */

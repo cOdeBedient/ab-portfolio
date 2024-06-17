@@ -16,7 +16,8 @@ export const StyledAbout = styled.section`
     }
 
     .about-section {
-        border: 1px solid white;
+        /* border: 1px solid white; */
+        background-color: #0000004b;
         border-radius: 8px;
         padding: 16px;
         position: relative;

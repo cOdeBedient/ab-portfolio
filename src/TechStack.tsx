@@ -18,7 +18,7 @@ const TechStack: React.FC = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
             >
-                <h3>Some Things I know</h3>
+                <h3>Skillset</h3>
                 <div className='techs'>
                     {technologies}
                 </div>

@@ -5,7 +5,7 @@ export const StyledTech = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 28%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 8px;
     padding: 5px 7px 5px 7px;;
     height: 35px;
@@ -18,6 +18,7 @@ export const StyledTech = styled.div`
     background-color: black; */
     color: white;
     background-color: #00000089;
+    
 
     img {
         width: 1.8vw;

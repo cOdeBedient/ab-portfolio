@@ -15,15 +15,15 @@ const TextCycle: React.FC = () => {
   }, []);
 
   return (
-    <div style={{ display: 'inline-block', overflow: 'hidden', height: '2em' }}>
+    <div style={{ overflow: 'hidden', height: '1em' }}>
       <AnimatePresence>
         <motion.div
+          style={{ position: 'absolute' }}
           key={index}
           initial={{ y: '-80%', opacity: 0 }}
           animate={{ y: '0%', opacity: 1 }}
           exit={{ y: '80%', opacity: 0 }}
-          transition={{ duration: .75 }}
-          style={{ position: 'absolute' }}
+          transition={{ duration: .35 }}
         >
             <StyledTextCycle>
                 {words[index]}
