@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const StyledTechStack = styled.section`
+    margin-bottom: 50px;
 
     h3 {
         margin-left: 2.2vw;
@@ -14,5 +15,11 @@ export const StyledTechStack = styled.section`
         justify-content: center;
         flex-wrap: wrap;
         width: 50vw;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .techs {
+        width: 70vw;
+        }
     }
 `

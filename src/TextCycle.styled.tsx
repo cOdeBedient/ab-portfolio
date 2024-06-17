@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledTextCycle = styled.p`
     color: #d690a8; 
-    font-size: 3.5em;
+    font-size: 3.3em;
     font-family: "Pacifico", cursive;
     font-style: normal;
     font-weight: 100;

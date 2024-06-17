@@ -66,7 +66,7 @@ export const StyledProjectsNew = styled.main`
     }
 
     .link-home {
-        position: absolute;
+        position: fixed;
         z-index: 10;        
         top: 20px;
         left: 20px;
@@ -75,4 +75,12 @@ export const StyledProjectsNew = styled.main`
             width: 30px;
         }
     } 
+
+    @media screen and (max-width: 700px) {
+        .link-home {
+            img {
+                width: 20px;
+            }
+        }
+    }
 `

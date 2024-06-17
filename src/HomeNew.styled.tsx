@@ -73,7 +73,7 @@ export const StyledHomeNew = styled.main`
         font-family: "Pacifico", cursive;
         font-style: normal;
         font-weight: 100;
-        font-size: 3.5em;
+        font-size: 3.3em;
         margin-bottom: 0px;
         margin-top: 0px;
         width: fit-content;
@@ -90,7 +90,7 @@ export const StyledHomeNew = styled.main`
 
     .title {
         display: flex;
-        height: 110px;
+        height: 100px;
         overflow: hidden;
         width: 100%;
         position: relative;

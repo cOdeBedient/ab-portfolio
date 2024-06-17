@@ -8,9 +8,9 @@ export const StyledProjectNew = styled.div`
     /* border: 2px solid white; */
     /* width: 42.5%; */
     /* border-radius: 8px; */
-    padding: 12px;
+    padding: 42px 32px;
     margin: 1vw;
-    height: 33vh;
+    height: fit-content;
     background-color: #0000006c;
     /* -webkit-mask: linear-gradient(270deg, rgba(0,0,0,0) 5%, rgba(0,0,0,1) 15%);
     -webkit-mask: linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,0,0,1) 10%); */
@@ -72,11 +72,39 @@ export const StyledProjectNew = styled.div`
         font-weight: 200;
     }
 
-    img {
-        width: 17vw;
-        margin-right: 0px;
-        margin-top: 0px;
-        /* height: 3vw; */
+    @media screen and (max-width: 1024px) {
+        h4 {
+        font-size: 4em;
+        line-height: 1em;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        h4 {
+            font-size: 3em;
+            line-height: 1em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+
+    @media screen and (max-width: 500px) {
+        h4 {
+            font-size: 1.8em;
+            line-height: 1em;
+        }
+
+        p {
+            font-size: .8em;
+        }
+
+        .deployed-repo {
+        font-size: 1em;
+
+    }
     }
 
 `

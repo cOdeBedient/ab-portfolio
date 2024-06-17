@@ -23,22 +23,36 @@ export const StyledAbout = styled.section`
         position: relative;
     }
 
-    img {
+    .ferry-photo {
         float: left;
         margin: 10px 20px 5px 6px;
         top: 20px;
         left: 20px;
-        width: 41%;
+        width: 40vh;
     }
 
     p {
         margin: 0;
     }
 
-.social-buttons {
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: -60px;;
+    .social-buttons {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: -60px;
+        width: 40px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 67vw;
+
+        .ferry-photo {
+        width: 25vh;
+    }
+
+    .social-buttons {
+        width: 30px;
+        left: -40px;
+    }
     }
 `

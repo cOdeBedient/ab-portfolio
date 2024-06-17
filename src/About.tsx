@@ -15,7 +15,7 @@ const About: React.FC = () => {
                 
             {/* <h3>A Bit More About Me</h3> */}
             <div className="about-section">
-            <img src="/assets/porty-head.jpg" alt='adam head' />
+            <img className="ferry-photo" src="/assets/porty-head.jpg" alt='adam photo on a ferry' />
             <p>I'm a front-end developer with a math and computer science BA and 15 years experience traveling the country - and the world! - as a documentary filmmaker.<br></br><br></br>
 
 During my time as a creative storyteller, documentarian, editor, director, and cinematographer, I obtained what I like to consider a masters-level degree in critical thinking and small team collaboration. As a project lead, I was integral to shaping a creative vision, leading meetings from broad and conceptual to granular and administrative, and helping to manage other team members.<br></br><br></br>

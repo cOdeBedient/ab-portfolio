@@ -21,12 +21,17 @@ export const StyledTech = styled.div`
     
 
     img {
-        width: 1.8vw;
+        width: 30px;
         /* background-color: black; */
         padding: 3px;
         /* height: 3vw; */
     }
 
-    
+    @media screen and (max-width: 1024px) {
+        /* width: 48%; */
+    } 
 
+    @media screen and (max-width: 630px) {
+        width: 98%;
+    }  
 `
