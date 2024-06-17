@@ -3,10 +3,6 @@ import styled from "styled-components"
 export const StyledHomeNew = styled.main`
     width: 100%;
     display: flex;
-    /* background-image: url(/assets/adam-head.jpg);
-    background-size: 65%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%; */
     height: 100vh;
 
     .home-socials {
@@ -23,47 +19,36 @@ export const StyledHomeNew = styled.main`
         cursor: pointer;
     }
 
-    span {
-        color: #d690a8;
-    }
-
     .background {
         height: 115%;
         z-index: 0;
         position: absolute;
-        top: -70px;
-        left: -120px;
+        top: -100px;
+        left: -7vw;
         -webkit-mask: linear-gradient(270deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 50%);
-        /* border-radius: 100px; */
-
     }
 
     .main-elements {
         width: 100%;
         color: white;
         display: flex;
-        /* flex-direction: column; */
+        justify-content: flex-end;
         align-items: center;
         position: relative;
+        padding-right: 100px;
+        margin-top: 28vh;
     }
 
     .header-with-flower {
-        width: 47vw;
+        width: 600px;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
-        margin-left: 1000px;
-        margin-top: 350px;
-      
-
-        img {
-            height: 190px;
-        }
+        padding-right: 10px;
 
         button {
             width: 150px;
             height: 50px;
-            margin: 30px 30px 30px 0px;;
+            margin: 40px 30px 30px 0px;;
             /* border-radius: 30px; */
             border: none;
             font-size: 1.2em;
@@ -88,7 +73,7 @@ export const StyledHomeNew = styled.main`
         font-family: "Pacifico", cursive;
         font-style: normal;
         font-weight: 100;
-        font-size: 58px;
+        font-size: 3.5em;
         margin-bottom: 0px;
         margin-top: 0px;
         width: fit-content;
@@ -100,16 +85,7 @@ export const StyledHomeNew = styled.main`
         font-weight: 500;
         margin-top: 10px;
         margin-bottom: 100px;
-        width: 32vw;
-    }
-
-    .black-box {
-        z-index: 100;
-        width: 600px;
-        height: 100px;
-        top: 375px;
-        position: absolute;
-        background-color: black;
+        /* width: 32vw; */
     }
 
     .title {
@@ -125,59 +101,140 @@ export const StyledHomeNew = styled.main`
         }
     }
 
-    /* .wrapper{
-    box-sizing: content-box;
-    background-color: black;
-    height: 70px;
-    padding: 50px 30px;
-    display: flex; */
-    /* border-radius: 8px; */
-    /* box-shadow: 0 20px 25px rgba(0,0,0,0.2);
-    } */
 
-    /* .words{
-        overflow: hidden;
-        margin-bottom: -35px;
-    } */
+    @media screen and (max-width: 1590px) {
+        .main-elements {
+            padding-right: 20px;
+        }
+    }
 
-    /* span {
-        display: block;
-        height: 100%; */
-        /* padding-left: 10px; */
-        /* color: #d690a8;
-        animation: spin_words 6s infinite;
-        font-size: 58px;
-        font-family: "Pacifico", cursive;
-        font-style: normal;
-        font-weight: 100;
-        margin-top: 25px;
-    } */
+    @media screen and (max-width: 1480px) {
+        .main-elements {
+            padding-right: 20px;
+        }
 
-@keyframes spin_words{
-    10%{
-        transform: translateY(-120%);
+        .background {
+            height: 112%;
+            left: -18vw;
+        }
     }
-    25%{
-        transform: translateY(-120%);
+
+    @media screen and (max-width: 1225px) {
+        .background {
+            height: 121.5%;
+            left: -24vw;
+            top: -21vh;
+        }
+
+        .header-with-flower {
+            width: 455px;
+            
+            button {
+                width: 120px;
+                height: 40px;
+                margin-top: 20px;
+                border: none;
+                font-size: 1em;
+                font-weight: bold;
+                background-color: #d690a8;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            padding-left: 2px;
+        }
+
+        .title {
+            height: 70px;
+        }
     }
-    35%{
-        transform: translateY(-212%);
+
+    @media screen and (max-width: 1022px) {
+        .header-with-flower {
+            background-color: black;
+            width: 455px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+        .title {
+            justify-content: center;
+            margin-right: 150px;
+        }
+
+        .ab-header {
+            align-items: center;
+        }
+
+        h2 {
+            width: 80%;
+        }
+
+        .main-elements {
+            margin-top: 50vh;
+            padding-right: 0px;
+            justify-content: center;
+            height: 70vh;
+        }
+
     }
-    50%{
-        transform: translateY(-240%);
+
+    @media screen and (max-width: 685px) {
+        .background {
+            left: -44vw;
+        }
+
+        .title {
+            width: 125%;
+        }
     }
-    60%{
-        transform: translateY(-312%);
+
+    @media screen and (max-width: 595px) {
+        .background {
+            height: 125%;
+            left: -74vw;
+        }
     }
-    75%{
-        transform: translateY(-360%);
+
+    @media screen and (max-width: 472px) {
+        .background {
+            height: 121.5%;
+            top: -21vh;
+        }
+
+        .header-with-flower {
+            
+            button {
+                width: 80px;
+                height: 30px;
+                margin-top: 20px;
+                border: none;
+                font-size: .75em;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+        }
+
+        h1 {
+            font-size: 1.7em;
+            padding-left: 2px;
+        }
+
+        .title {
+            justify-content: center;
+            margin-right: 120px;
+            height: 50px;
+        }
+
     }
-    85%{
-        transform: translateY(-412%);
-    }
-    100%{
-        transform: translateY(-480%);
-    }
-}
 
 `
