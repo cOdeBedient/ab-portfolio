@@ -17,9 +17,9 @@ const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, tagline
                     <div className="project-details">
                         <h4>{name}</h4>
                         <div className="deployed-repo">
-                            <a href={deployed}>deployed</a>
+                            <a href={deployed} target="_blank">deployed</a>
                             <p className="line">|</p>
-                            <a href={repo}>repo</a>
+                            <a href={repo} target="_blank">repo</a>
                         </div>
                     </div>
                 </div>
