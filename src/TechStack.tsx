@@ -1,6 +1,8 @@
 import { StyledTechStack } from './TechStack.styled'
 import Tech from './Tech'
 import techStackData from './data/techStackData'
+import { motion } from "framer-motion"
+
 
 const TechStack: React.FC = () => {
 
@@ -12,10 +14,15 @@ const TechStack: React.FC = () => {
 
     return (
         <StyledTechStack>
-            <h3>Tech Stack</h3>
-            <div className='techs'>
-                {technologies}
-            </div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+            >
+                <h3>Skillset</h3>
+                <div className='techs'>
+                    {technologies}
+                </div>
+                </motion.div>
         </StyledTechStack>
     )
 }

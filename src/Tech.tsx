@@ -9,8 +9,8 @@ const Tech: React.FC<TechProps> = ({ tech, logo }) => {
 
     return (
         <StyledTech>
-            <p>{tech}</p>
-            <img src={logo} alt={`${tech} logo`} />
+                <h2>{tech}</h2>
+                <img src={logo} alt={`${tech} logo`} />
         </StyledTech>
     )
 }
