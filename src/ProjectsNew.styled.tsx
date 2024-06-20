@@ -24,6 +24,22 @@ export const StyledProjectsNew = styled.main`
         position: relative;
     }
 
+    .footer {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .home-button {
+        img {
+            background-color: #d690a8;
+            width: 32px;
+            padding: 4px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    }
+
     .background {
         z-index: -1;
         position: fixed;
@@ -43,37 +59,15 @@ export const StyledProjectsNew = styled.main`
         }
     }
 
-    .ab-header {
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    h1 {
-        font-size: 45px;
-        margin-bottom: 10px;
-        margin-top: 100px;
-        width: 37vw;
-    }
-
-    h2 {
-        font-size: 24px;
-        font-weight: 500;
-        margin-top: 10px;
-        margin-bottom: 100px;
-        width: 32vw;
-    }
-
     .link-home {
         position: fixed;
         z-index: 10;        
         top: 20px;
         left: 20px;
 
-        img {
+        /* img {
             width: 30px;
-        }
+        } */
     } 
 
     @media screen and (max-width: 700px) {

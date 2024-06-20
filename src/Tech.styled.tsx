@@ -4,10 +4,10 @@ export const StyledTech = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 28%;
+    width: 27%;
     /* border: 1px solid white; */
-    border-radius: 8px;
-    padding: 5px 7px 5px 7px;;
+    /* border-radius: 8px; */
+    padding: 5px 7px 5px 11px;;
     height: 35px;
     margin: 6px;
     font-size: 17px;
@@ -19,6 +19,10 @@ export const StyledTech = styled.div`
     color: white;
     background-color: #00000089;
     
+    h2 {
+        margin: 0;
+        font-size: 1.1em;
+    }
 
     img {
         width: 30px;

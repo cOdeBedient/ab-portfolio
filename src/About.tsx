@@ -5,9 +5,6 @@ import FooterNew from './FooterNew'
 const About: React.FC = () => {
     return (
         <StyledAbout>
-            <div className="social-buttons" >
-                <FooterNew />
-            </div>
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

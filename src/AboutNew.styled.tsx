@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const StyledAboutNew = styled.main`
+export const StyledAboutNew = styled.section`
     width: 100%;
     display: flex;
     background-color: #292929;
@@ -8,10 +8,11 @@ export const StyledAboutNew = styled.main`
     background-attachment: fixed;
     background-position: 10% 10%;
     background-size: 500%;
-
+    height: 100vh;
 
     .main-elements {
         width: 100%;
+        height: 100%;
         color: white;
         display: flex;
         flex-direction: column;
@@ -19,16 +20,22 @@ export const StyledAboutNew = styled.main`
         /* position: relative; */
     }
 
-    .link-home {
+    .footer {
         position: absolute;
-        z-index: 10;        
+        right: 20px;
         top: 20px;
-        left: 20px;
+    }
 
+    .home-button {
         img {
-            width: 25px;
+            background-color: #d690a8;
+            width: 32px;
+            padding: 4px;
+            border-radius: 8px;
+            margin-bottom: 10px;
         }
-    } 
+    }
+
 
     @media screen and (max-width: 1024px) {
         .link-home {        

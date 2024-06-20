@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const StyledTextCycle = styled.p`
+export const StyledTextCycle = styled.h2`
     color: #d690a8; 
     font-size: 3.3em;
     font-family: "Pacifico", cursive;

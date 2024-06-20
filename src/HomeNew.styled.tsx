@@ -4,6 +4,8 @@ export const StyledHomeNew = styled.main`
     width: 100%;
     display: flex;
     height: 100vh;
+    overflow: hidden;
+    position: relative;
 
     .home-socials {
         display: flex;
@@ -12,6 +14,22 @@ export const StyledHomeNew = styled.main`
         img {
             height: 50px !important;
             margin-right: 20px;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .home-button {
+        img {
+            background-color: #ffffff;
+            width: 32px;
+            padding: 4px;
+            border-radius: 8px;
+            margin-bottom: 10px;
         }
     }
 
@@ -32,14 +50,15 @@ export const StyledHomeNew = styled.main`
         width: 100%;
         color: white;
         display: flex;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
         align-items: center;
         position: relative;
-        padding-right: 100px;
+        /* padding-right: 100px; */
         margin-top: 28vh;
     }
 
     .header-with-flower {
+        margin-left: 110vh;
         width: 600px;
         display: flex;
         flex-direction: column;
@@ -58,7 +77,7 @@ export const StyledHomeNew = styled.main`
             cursor: pointer;
         }
 
-        h2 {
+        p {
             margin: 0;
         }
     }
@@ -80,7 +99,7 @@ export const StyledHomeNew = styled.main`
         margin-left: -3px;
     }
 
-    h2 {
+    p {
         font-size: 24px;
         font-weight: 500;
         margin-top: 10px;
@@ -95,29 +114,34 @@ export const StyledHomeNew = styled.main`
         width: 100%;
         position: relative;
 
-        p {
+        h2 {
             margin: 0;
             margin-left: 10px;
         }
     }
 
 
-    @media screen and (max-width: 1590px) {
-        .main-elements {
-            padding-right: 20px;
+    @media screen and (max-width: 1690px) {
+        .header-with-flower {
+            margin-left: 90vh;
+        }
+
+        .background {
+            left: -10vw;
         }
     }
 
     @media screen and (max-width: 1480px) {
-        .main-elements {
-            padding-right: 20px;
+        .header-with-flower {
+            margin-left: 66vh;
         }
 
         .background {
             height: 112%;
-            left: -18vw;
+            left: -22vw;
         }
     }
+
 
     @media screen and (max-width: 1225px) {
         .background {
@@ -141,7 +165,7 @@ export const StyledHomeNew = styled.main`
                 cursor: pointer;
             }
 
-            h2 {
+            p {
                 font-size: 1.2em;
             }
         }
@@ -156,14 +180,37 @@ export const StyledHomeNew = styled.main`
         }
     }
 
-    @media screen and (max-width: 1022px) {
+    @media screen and (max-width: 1100px) {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .background {
+            width: 100vw;
+            height: auto;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .main-elements {
+            position: relative;
+            top: 0;
+            margin-top: 0 !important;
+            justify-content: start !important;
+            display: flex;
+            flex-direction: column;
+        }
+
         .header-with-flower {
             background-color: black;
             width: 455px;
             width: 100%;
             align-items: center;
             text-align: center;
+            margin-left: 0;
         }
+        
         .title {
             justify-content: center;
             margin-right: 150px;
@@ -173,7 +220,7 @@ export const StyledHomeNew = styled.main`
             align-items: center;
         }
 
-        h2 {
+        p {
             width: 80%;
         }
 
@@ -183,31 +230,35 @@ export const StyledHomeNew = styled.main`
             justify-content: center;
             height: 70vh;
         }
-
     }
 
-    @media screen and (max-width: 685px) {
+    /* @media screen and (max-width: 820px) {
         .background {
-            left: -44vw;
+            left: -54vw;
         }
+    } */
 
+    @media screen and (max-width: 685px) {
         .title {
             width: 125%;
         }
     }
 
-    @media screen and (max-width: 595px) {
+    /* @media screen and (max-width: 595px) {
         .background {
             height: 125%;
             left: -74vw;
         }
-    }
+    } */
+
+    /* @media screen and (max-width: 595px) {
+        .background {
+            height: 125%;
+            left: -94vw;
+        }
+    } */
 
     @media screen and (max-width: 472px) {
-        .background {
-            height: 121.5%;
-            top: -21vh;
-        }
 
         .header-with-flower {
             
@@ -219,7 +270,7 @@ export const StyledHomeNew = styled.main`
                 font-size: .75em;
             }
 
-            h2 {
+            p {
                 font-size: 1em;
             }
         }
@@ -234,7 +285,12 @@ export const StyledHomeNew = styled.main`
             margin-right: 120px;
             height: 50px;
         }
-
     }
+
+    /* @media screen and (max-width: 442px) {
+        .background {
+            left: -132vw;
+        }
+    } */
 
 `

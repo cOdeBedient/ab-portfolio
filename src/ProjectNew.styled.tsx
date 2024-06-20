@@ -59,7 +59,7 @@ export const StyledProjectNew = styled.div`
         font-style: italic;
     }
 
-    h4 {
+    h2 {
         margin-bottom: 0;
         margin-top: 5px;;
         font-size: 6em;
@@ -73,14 +73,14 @@ export const StyledProjectNew = styled.div`
     }
 
     @media screen and (max-width: 1024px) {
-        h4 {
+        h2 {
         font-size: 4em;
         line-height: 1em;
         }
     }
 
     @media screen and (max-width: 700px) {
-        h4 {
+        h2 {
             font-size: 3em;
             line-height: 1em;
         }
@@ -92,7 +92,7 @@ export const StyledProjectNew = styled.div`
 
 
     @media screen and (max-width: 500px) {
-        h4 {
+        h2 {
             font-size: 1.8em;
             line-height: 1em;
         }

@@ -1,5 +1,6 @@
 import { StyledHomeNew } from './HomeNew.styled'
 import NavBar from './NavBar'
+import FooterNew from './FooterNew'
 import TextCycle from './TextCycle'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +8,7 @@ const Home: React.FC = () => {
     return (
         <StyledHomeNew>
             {/* <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" /> */}
-            <NavBar />
+            {/* <NavBar /> */}
             {/* <ScrollingLine /> */}
             <img className="background" src='/assets/adam-head.jpg' alt="Adam's head" />
             <section className="main-elements">
@@ -18,7 +19,7 @@ const Home: React.FC = () => {
                             <h1>Adam Bedient:</h1>
                             <TextCycle />
                         </div>
-                        <h2>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</h2>
+                        <p>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
                     </section>
                     <div className="button-div">
                         <Link to='/projects/' ><button>Projects</button></Link>
@@ -37,6 +38,12 @@ const Home: React.FC = () => {
                 <About />
                 <Footer /> */}
             </section>
+            <div className="footer">
+                <Link to='/' className="home-button">
+                    <img src="/assets/tech-logos/home-button.svg" alt="link to home" />
+                </Link>
+                <FooterNew />
+            </div>
         </StyledHomeNew>
     )
 }

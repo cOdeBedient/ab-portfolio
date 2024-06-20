@@ -12,11 +12,15 @@ const AboutNew: React.FC = () => {
     return (
         <StyledAboutNew>
             <section className="main-elements">
-            <Link to='/' className="link-home"><img src="/assets/tech-logos/home-button.svg" alt="link to home" /></Link>
                 <About />
                 <TechStack />
-
             </section>
+            <div className="footer">
+                <Link to='/' className="home-button">
+                    <img src="/assets/tech-logos/home-button.svg" alt="link to home" />
+                </Link>
+                <FooterNew />
+            </div>
         </StyledAboutNew>
     )
 }

@@ -15,7 +15,7 @@ const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, tagline
         <StyledProjectNew>
                 <div className="no-tagline-container">
                     <div className="project-details">
-                        <h4>{name}</h4>
+                        <h2>{name}</h2>
                         <div className="deployed-repo">
                             <a href={deployed} target="_blank">deployed</a>
                             <p className="line">|</p>
