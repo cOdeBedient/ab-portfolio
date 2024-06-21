@@ -58,7 +58,7 @@ export const StyledHomeNew = styled.main`
     }
 
     .header-with-flower {
-        margin-left: 110vh;
+        margin-left: 112vh;
         width: 600px;
         display: flex;
         flex-direction: column;
@@ -123,7 +123,7 @@ export const StyledHomeNew = styled.main`
 
     @media screen and (max-width: 1690px) {
         .header-with-flower {
-            margin-left: 90vh;
+            margin-left: 93vh;
         }
 
         .background {
@@ -131,7 +131,7 @@ export const StyledHomeNew = styled.main`
         }
     }
 
-    @media screen and (max-width: 1480px) {
+    @media screen and (max-width: 1400px) {
         .header-with-flower {
             margin-left: 66vh;
         }
@@ -143,7 +143,7 @@ export const StyledHomeNew = styled.main`
     }
 
 
-    @media screen and (max-width: 1225px) {
+    @media screen and (max-width: 1200px) {
         .background {
             height: 121.5%;
             left: -24vw;
@@ -184,18 +184,20 @@ export const StyledHomeNew = styled.main`
         position: relative;
         display: flex;
         flex-direction: column;
+        overflow-y: scroll;
 
         .background {
             width: 100vw;
             height: auto;
             position: relative;
-            top: 0;
+            top: -30px;
             left: 0;
+            -webkit-mask: linear-gradient(0deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 20%);
         }
 
         .main-elements {
             position: relative;
-            top: 0;
+            top: -50px;
             margin-top: 0 !important;
             justify-content: start !important;
             display: flex;
