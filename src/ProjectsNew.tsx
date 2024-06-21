@@ -3,9 +3,20 @@ import FooterNew from './FooterNew'
 import Projects from './Projects'
 import { Link } from 'react-router-dom'
 
-const ProjectsNew: React.FC = () => {
+interface Backgrounds {
+    home: string;
+    projects: string;
+    smallHead: string;
+  }
+  
+  interface ProjectsNewProps {
+    backgrounds: Backgrounds;
+  }
+  
+  const ProjectsNew: React.FC<ProjectsNewProps> = ({ backgrounds }) => {
     return (
         <StyledProjectsNew>
+            <img className="background-projects" src={backgrounds.projects} alt="Adam's head" />
             <section className="main-elements">
                 <Projects />
             </section>

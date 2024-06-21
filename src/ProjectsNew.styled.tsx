@@ -3,19 +3,31 @@ import styled from "styled-components"
 export const StyledProjectsNew = styled.main`
     width: 100%;
     display: flex;
-    background-image: url(/assets/meadow1.jpg);
+    /* background-image: url(/assets/meadow1.jpg);
     background-image: url(/assets/meadow3.jpg);
     background-image: url(/assets/forest.jpg);
     background-image: url(/assets/porty-1.jpg);
-    background-image: url(/assets/leaf-sun.jpg);
+    background-image: url(/assets/leaf-sun.jpg); */
     /* background-image: url(/assets/porty-2.jpg); */
     /* background-image: url(/assets/porty-3.jpg); */
     /* background-image: url(/assets/porty-4.jpg); */
-    background-size: cover;
+    /* background-size: cover;
     background-attachment: fixed;
-    background-position: 10% 10%;
+    background-position: 10% 10%; */
+    /* overflow: hidden; */
+    position: relative;
+
+    .background-projects {
+        width: 100vw;
+        /* height: 100%; */
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0vw;
+    }
 
     .main-elements {
+        z-index: 1;
         width: 100%;
         color: white;
         display: flex;
@@ -28,6 +40,7 @@ export const StyledProjectsNew = styled.main`
         position: absolute;
         right: 20px;
         top: 20px;
+        z-index: 2;
     }
 
     .home-button {
