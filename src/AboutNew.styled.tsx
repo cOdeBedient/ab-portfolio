@@ -21,11 +21,12 @@ export const StyledAboutNew = styled.section`
     }
 
     .background-about {
-        height: 650%;
+        width: 650%;
         z-index: -1;
         position: fixed;
-        top: -60%;
-        left: -35%;
+        top: -700px;;
+        right: -6550px;
+        min-width: 1200px;
     }
 
     .footer {

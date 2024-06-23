@@ -18,12 +18,13 @@ export const StyledProjectsNew = styled.main`
     position: relative;
 
     .background-projects {
-        width: 100vw;
+        width: 120vw;
+        min-width: 1600px;
         /* height: 100%; */
         z-index: 0;
         position: absolute;
         top: 0;
-        left: 0vw;
+        right: -20vw;
     }
 
     .main-elements {

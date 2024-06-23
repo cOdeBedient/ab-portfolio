@@ -29,7 +29,9 @@ interface Backgrounds {
                             <h1>Adam Bedient:</h1>
                             <TextCycle />
                         </div>
-                        <p>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
+                       
+                        <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
+                        
                     </section>
                     <div className="button-div">
                         <Link to='/projects/' ><button>Projects</button></Link>
