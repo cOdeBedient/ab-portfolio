@@ -21,7 +21,8 @@ A seasoned storyteller and expert learner, my innate - and acquired! - ability t
 
 I believe that humanity comes first, a lesson I learned time and time again as a filmmaker, and one I've carried with me into engineering. If we deny our humanity, the work suffers. Every time. This mantra has guided much of my work, and I view collaboration as a soup to nuts concept. The user is a collaborator just as much as the back end dev. If we aren’t tuned into the breadth of each other’s experiences during the creation process, THE WORK SUFFERS.<br></br><br></br>
 
-If it sounds like I am speaking your language, or if you know someone I should talk to, please reach out! I would love to connect over a zoom tea-time, or a game of pickleball.</p>
+If it sounds like I am speaking your language, or if you know someone I should talk to, please reach out! I would love to connect over a zoom tea-time, or a game of pickleball.</p><br></br><br></br>
+<p>adambedient@gmail.com • 315-941-0948</p>
 </div>
 </motion.div>
         </StyledAbout>

@@ -25,7 +25,7 @@ export const StyledAboutNew = styled.section`
         z-index: -1;
         position: fixed;
         top: -700px;;
-        right: -6550px;
+        right: -6750px;
         min-width: 1200px;
     }
 

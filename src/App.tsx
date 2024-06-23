@@ -22,7 +22,7 @@ const [backgrounds, setBackgrounds] = useState<Backgrounds>({home: '', projects:
         const projectsBackground = new Image()
         projectsBackground.src = "/assets/leaf-sun.jpg"
         const aboutHead = new Image()
-        aboutHead.src = "/assets/Porty-head.jpg"
+        aboutHead.src = "/assets/Porty-Head.jpg"
 
         homeBackground.onload = () => {
           setBackgrounds((prev) => ({
