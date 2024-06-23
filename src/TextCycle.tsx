@@ -2,14 +2,14 @@ import {useState , useEffect} from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { StyledTextCycle } from './TextCycle.styled'
 
-const words = ["Mathlete", "Developer", "Creative", "Nerd", "Artist", "Coder", "Listener"];
+const words = ["Mathlete", "Developer", "Creative", "Nerd", "Artist", "Coder", "Listener", "Listener"];
 
 const TextCycle: React.FC = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % words.length);
+      setIndex((prevIndex) => (prevIndex + 1) % (words.length - 1));
     }, 3000)
     return () => clearInterval(interval);
   }, []);

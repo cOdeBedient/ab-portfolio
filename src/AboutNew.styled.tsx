@@ -3,11 +3,11 @@ import styled from "styled-components"
 export const StyledAboutNew = styled.section`
     width: 100%;
     display: flex;
-    background-color: #292929;
+    /* background-color: #292929;
     background-image: url(/assets/porty-1.jpg);
     background-attachment: fixed;
     background-position: 10% 10%;
-    background-size: 500%;
+    background-size: 500%; */
     height: 100vh;
 
     .main-elements {
@@ -18,6 +18,15 @@ export const StyledAboutNew = styled.section`
         flex-direction: column;
         align-items: center;
         /* position: relative; */
+    }
+
+    .background-about {
+        width: 650%;
+        z-index: -1;
+        position: fixed;
+        top: -700px;;
+        right: -6550px;
+        min-width: 1200px;
     }
 
     .footer {

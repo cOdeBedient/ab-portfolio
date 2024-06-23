@@ -4,13 +4,23 @@ import FooterNew from './FooterNew'
 import TextCycle from './TextCycle'
 import { Link } from 'react-router-dom'
 
-const Home: React.FC = () => {
+interface Backgrounds {
+    home: string;
+    projects: string;
+    smallHead: string;
+  }
+  
+  interface HomeNewProps {
+    backgrounds: Backgrounds;
+  }
+
+  const HomeNew: React.FC<HomeNewProps> = ({ backgrounds }) => {
     return (
         <StyledHomeNew>
             {/* <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" /> */}
             {/* <NavBar /> */}
             {/* <ScrollingLine /> */}
-            <img className="background" src='/assets/adam-head.jpg' alt="Adam's head" />
+            <img className="background" src={backgrounds.home} alt="Adam's head" />
             <section className="main-elements">
                 <div className="header-with-flower">
                     <section className="ab-header">
@@ -19,7 +29,9 @@ const Home: React.FC = () => {
                             <h1>Adam Bedient:</h1>
                             <TextCycle />
                         </div>
-                        <p>I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
+                       
+                        <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
+                        
                     </section>
                     <div className="button-div">
                         <Link to='/projects/' ><button>Projects</button></Link>
@@ -48,4 +60,4 @@ const Home: React.FC = () => {
     )
 }
 
-export default Home
+export default HomeNew

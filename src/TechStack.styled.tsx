@@ -4,9 +4,9 @@ export const StyledTechStack = styled.section`
     margin-bottom: 50px;
 
     h3 {
-        margin-left: 2.2vw;
+        margin-left: 2.5vw;
         font-size: 26px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         margin-top: 50px;
     }
 
@@ -14,7 +14,7 @@ export const StyledTechStack = styled.section`
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 52vw;
+        width: 51vw;
     }
 
     @media screen and (max-width: 1024px) {

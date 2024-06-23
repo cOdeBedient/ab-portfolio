@@ -8,9 +8,21 @@ import About from './About'
 import ScrollingLine from './ScrollingLine'
 import { Link } from 'react-router-dom'
 
-const AboutNew: React.FC = () => {
+
+interface Backgrounds {
+    home: string;
+    projects: string;
+    smallHead: string;
+  }
+  
+  interface AboutNewProps {
+    backgrounds: Backgrounds;
+  }
+  
+  const AboutNew: React.FC<AboutNewProps> = ({ backgrounds }) => {
     return (
         <StyledAboutNew>
+            <img className="background-about" src={backgrounds.projects} alt="Adam's head" />
             <section className="main-elements">
                 <About />
                 <TechStack />

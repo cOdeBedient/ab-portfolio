@@ -10,7 +10,7 @@ export const StyledTextCycle = styled.h2`
     overflow: hidden;
     padding-right: 10px;
 
-    @media screen and (max-width: 1225px) {
+    @media screen and (max-width: 1200px) {
         font-size: 2.5em;
         height: 75px;
     }
