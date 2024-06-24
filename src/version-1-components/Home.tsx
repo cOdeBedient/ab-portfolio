@@ -6,7 +6,17 @@ import Projects from '../Projects'
 import About from '../About'
 import ScrollingLine from '../ScrollingLine'
 
-const Home: React.FC = () => {
+interface Backgrounds {
+    home: string;
+    projects: string;
+    smallHead: string;
+  }
+  
+  interface HomeProps {
+    backgrounds: Backgrounds;
+  }
+
+  const Home: React.FC<HomeProps> = ({ backgrounds }) => {
     return (
         <StyledHome>
             
@@ -24,7 +34,7 @@ const Home: React.FC = () => {
             
                 <TechStack />
                 <Projects />
-                <About />
+                <About backgrounds={backgrounds}/>
                 <Footer />
             </section>
         </StyledHome>

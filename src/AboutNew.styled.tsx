@@ -9,6 +9,7 @@ export const StyledAboutNew = styled.section`
     background-position: 10% 10%;
     background-size: 500%; */
     height: 100vh;
+    position: relative;
 
     .main-elements {
         width: 100%;
@@ -21,16 +22,17 @@ export const StyledAboutNew = styled.section`
     }
 
     .background-about {
-        width: 650%;
+        width: 8000px;;
         z-index: -1;
         position: fixed;
-        top: -700px;;
-        right: -6750px;
+        top: -500px;
+        right: 0px;
+        margin-right: -5800px;
         min-width: 1200px;
     }
 
     .footer {
-        position: absolute;
+        position: fixed;
         right: 20px;
         top: 20px;
     }
@@ -54,6 +56,16 @@ export const StyledAboutNew = styled.section`
             width: 20px;
         }
     } 
+
+    .background-about {
+        width: 8000px;;
+        z-index: -1;
+        position: fixed;
+        top: -500px;
+        right: 0px;
+        margin-right: -5900px;
+        min-width: 1200px;
+    }
 }
 
 `
