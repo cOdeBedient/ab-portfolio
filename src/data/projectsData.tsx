@@ -25,14 +25,14 @@ let projectsData: { name: string, thumbnail: string, tagline: string, deployed?:
             name: "bLOOMbABY",
             thumbnail: '/assets/project-thumbs/bloom-baby-thumb.png',
             tagline: "Plant a 3D flower and watch it grow. Will you breed the next superflower?",
-            deployed: 'null',
+            deployed: 'https://bloombabyfe-toms-projects-be041e30.vercel.app/',
             repo: 'https://github.com/2311-capstone-bloom-brothers/bloom-brothers-fe'
         },
         {
             name: "Rancid Tomatillos",
             thumbnail: '/assets/project-thumbs/rancid-tomatillos-thumb.png',
             tagline: "A React interface for organizing and selecting movies",
-            deployed: 'null',
+            deployed: 'https://rancid-tomatillos-kappa.vercel.app/',
             repo: 'https://github.com/cOdeBedient/rancidTomatillos'
         }
     ]

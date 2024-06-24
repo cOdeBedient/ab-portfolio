@@ -22,7 +22,7 @@ export const StyledProjectsNew = styled.main`
         min-width: 1600px;
         /* height: 100%; */
         z-index: 0;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -20vw;
     }
@@ -38,7 +38,7 @@ export const StyledProjectsNew = styled.main`
     }
 
     .footer {
-        position: absolute;
+        position: fixed;
         right: 20px;
         top: 20px;
         z-index: 2;

@@ -22,9 +22,9 @@ interface Backgrounds {
   const AboutNew: React.FC<AboutNewProps> = ({ backgrounds }) => {
     return (
         <StyledAboutNew>
-            <img className="background-about" src={backgrounds.projects} alt="Adam's head" />
+            <img className="background-about" src={backgrounds.projects} alt="Woods Background" />
             <section className="main-elements">
-                <About />
+                <About backgrounds={backgrounds}/>
                 <TechStack />
             </section>
             <div className="footer">
