@@ -2,7 +2,7 @@ import {useState , useEffect} from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { StyledTextCycle } from './TextCycle.styled'
 
-const words = ["Mathlete", "Developer", "Creative", "Nerd", "Artist", "Coder", "Listener", "Listener"];
+const words = ["Mathlete", "Developer", "Creative", "Nerd", "Filmmaker", "Coder", "Artist", "Listener", "Listener"];
 
 const TextCycle: React.FC = () => {
   const [index, setIndex] = useState(0);
@@ -25,9 +25,9 @@ const TextCycle: React.FC = () => {
           exit={{ y: '80%', opacity: 0 }}
           transition={{ duration: .35 }}
         >
-            <StyledTextCycle>
-                {words[index]}
-            </StyledTextCycle>
+          <StyledTextCycle>
+              {words[index]}
+          </StyledTextCycle>
         </motion.div>
       </AnimatePresence>
     </div>
