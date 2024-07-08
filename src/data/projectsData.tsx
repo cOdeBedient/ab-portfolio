@@ -8,7 +8,7 @@ let projectsData: { name: string, thumbnail: string, tagline: string, deployed?:
             repo: 'https://github.com/cOdeBedient/destination-banana'
         },
         {
-            name: "Look At this Snake",
+            name: "Look at This Snake",
             thumbnail: '/assets/project-thumbs/look-at-this-snake-thumb.png',
             tagline: "The sight of snakes makes you crawl in your skin? This dog will help to desensitize you.",
             deployed: 'https://look-at-this-snake-v2.vercel.app/',
