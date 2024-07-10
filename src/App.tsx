@@ -3,7 +3,6 @@ import Home from './version-1-components/Home'
 import HomeNew from './HomeNew'
 import ProjectsNew from './ProjectsNew'
 import AboutNew from './AboutNew'
-import './App.css';
 import { Routes, Route } from "react-router-dom"
 import {useState , useEffect} from 'react';
 
@@ -45,7 +44,6 @@ const [backgrounds, setBackgrounds] = useState<Backgrounds>({home: '', projects:
           }));
         };
   }, [])
-
 
 
   return (

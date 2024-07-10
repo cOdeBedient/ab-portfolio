@@ -5,7 +5,6 @@ import FooterNew from './FooterNew'
 import TechStack from './TechStack'
 import Projects from './Projects'
 import About from './About'
-import ScrollingLine from './ScrollingLine'
 import { Link } from 'react-router-dom'
 
 

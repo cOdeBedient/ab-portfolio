@@ -68,13 +68,8 @@ export const StyledHomeNew = styled.main`
             width: 150px;
             height: 50px;
             margin: 40px 30px 30px 0px;;
-            /* border-radius: 30px; */
-            border: none;
-            font-size: 1.2em;
-            font-weight: bold;
-            background-color: #d690a8;
-            border-radius: 20px;
-            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: bolder;
         }
 
         p {

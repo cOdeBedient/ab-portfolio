@@ -1,4 +1,5 @@
 import { StyledHomeNew } from './HomeNew.styled'
+import MainButton from './MainButton'
 import NavBar from './NavBar'
 import FooterNew from './FooterNew'
 import TextCycle from './TextCycle'
@@ -17,14 +18,10 @@ interface Backgrounds {
   const HomeNew: React.FC<HomeNewProps> = ({ backgrounds }) => {
     return (
         <StyledHomeNew>
-            {/* <img className="background" src='/assets/bright-flower-background.jpg' alt="flower backround" /> */}
-            {/* <NavBar /> */}
-            {/* <ScrollingLine /> */}
             <img className="background" src={backgrounds.home} alt="Adam's head" />
             <section className="main-elements">
                 <div className="header-with-flower">
                     <section className="ab-header">
-                        {/* <div className="black-box"></div> */}
                         <div className="title">
                             <h1>Adam Bedient:</h1>
                             <TextCycle />
@@ -34,21 +31,10 @@ interface Backgrounds {
                         
                     </section>
                     <div className="button-div">
-                        <Link to='/projects/' ><button>Projects</button></Link>
-                        <Link to='/about/'><button>About Me</button></Link>
+                        <Link to='/projects/' ><MainButton buttonText={"Projects"}></MainButton></Link>
+                        <Link to='/about/'><MainButton buttonText={"About Me"}></MainButton></Link>
                     </div>
                 </div>
-                    {/* <div className="home-socials">
-                        <img src="/assets/tech-logos/github.svg" alt="github logo" />
-                        <img src="/assets/tech-logos/instagram.svg" alt="github logo" />
-                        <img src="/assets/tech-logos/linkedin.svg" alt="github logo" />
-                    </div> */}
-                    {/* <img className="flower" src='/assets/flower-bigger-4.png' alt="flower" /> */}
-{/*             
-                <TechStack />
-                <Projects />
-                <About />
-                <Footer /> */}
             </section>
             <div className="footer">
                 <Link to='/' className="home-button">
