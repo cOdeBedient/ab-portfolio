@@ -189,14 +189,14 @@ export const StyledHomeNew = styled.main`
             width: 100vw;
             height: auto;
             position: relative;
-            top: -30px;
+            top: 0px;
             left: 0;
             -webkit-mask: linear-gradient(0deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 20%);
         }
 
         .main-elements {
             position: relative;
-            top: -50px;
+            top: -10px;
             margin-top: 0 !important;
             justify-content: start !important;
             display: flex;
@@ -245,6 +245,22 @@ export const StyledHomeNew = styled.main`
         }
     }
 
+    .button-div {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .header-with-flower {
+            button {
+                width: 110px;
+                height: 36px;
+                margin-top: 20px;
+                margin-right: 0;
+                font-size: .95em;
+            }
+        }
+
     /* @media screen and (max-width: 595px) {
         .background {
             height: 125%;
@@ -261,17 +277,23 @@ export const StyledHomeNew = styled.main`
 
     @media screen and (max-width: 472px) {
 
+        .button-div {
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
         .header-with-flower {
-            
             button {
-                width: 85px;
-                height: 30px;
+                width: 97px;
+                height: 33px;
                 margin-top: 20px;
-                font-size: .75em;
+                margin-right: 0;
+                font-size: .85em;
             }
 
             p {
-                font-size: 1em;
+                font-size: 1.3em;
             }
         }
 
