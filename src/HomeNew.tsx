@@ -23,11 +23,11 @@ interface Backgrounds {
                 <div className="header-with-flower">
                     <section className="ab-header">
                         <div className="title">
-                            <h1>Adam Bedient:</h1>
+                            <div className="name-and-arrow">
+                                <h1>Adam Bedient:</h1>
+                            </div>
                             <TextCycle />
-                            <p className="cycle"></p>
                         </div>
-                       
                         <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
                         
                     </section>

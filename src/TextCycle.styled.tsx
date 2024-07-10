@@ -6,9 +6,9 @@ export const StyledTextCycle = styled.h2`
     font-family: "Pacifico", cursive;
     font-style: normal;
     font-weight: 100;
-    height: 116px;
-    overflow: hidden;
     padding-right: 10px;
+    cursor: pointer;
+    position: relative;
 
     @media screen and (max-width: 1200px) {
         font-size: 2.5em;

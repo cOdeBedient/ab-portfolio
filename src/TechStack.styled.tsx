@@ -15,6 +15,7 @@ export const StyledTechStack = styled.section`
         justify-content: center;
         flex-wrap: wrap;
         width: 51vw;
+        margin-bottom: 60px;
     }
 
     @media screen and (max-width: 1024px) {
