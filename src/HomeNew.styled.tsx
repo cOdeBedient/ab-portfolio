@@ -74,6 +74,8 @@ export const StyledHomeNew = styled.main`
             margin: 40px 30px 30px 0px;;
             font-size: 1.3em;
             font-weight: bolder;
+            text-decoration: none !important;
+            color: black !important;
         }
 
         p {
