@@ -1,30 +1,31 @@
-import {useState , useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { StyledTextCycle } from './TextCycle.styled'
+import { StyledTextCycle } from './TextCycle.styled';
 
-const words = ["Mathlete", "Developer", "Creative", "Nerd", "Filmmaker", "Coder", "Artist", "Listener"];
+const words = ["Mathlete", "Developer", "Creative", "Nerd", "Filmmaker", "Coder", "Artist", "Listener"]
 
 const TextCycle: React.FC = () => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % (words.length));
-    }, 3000)
-    return () => clearInterval(interval);
+      setIndex((prevIndex) => (prevIndex + 1) % words.length)
+    }, 3000);
+
+    return () => clearInterval(interval)
   }, []);
 
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
-        setIndex(0);
+        setIndex(0)
       }
     };
 
-    document.addEventListener('visibilitychange', handleVisibilityChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange)
 
     return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
     };
   }, []);
 
@@ -37,10 +38,10 @@ const TextCycle: React.FC = () => {
           initial={{ y: '-80%', opacity: 0 }}
           animate={{ y: '0%', opacity: 1 }}
           exit={{ y: '80%', opacity: 0 }}
-          transition={{ duration: .35 }}
+          transition={{ duration: 0.35 }}
         >
           <StyledTextCycle>
-              {words[index]}
+            {words[index]}
           </StyledTextCycle>
         </motion.div>
       </AnimatePresence>
@@ -48,4 +49,4 @@ const TextCycle: React.FC = () => {
   );
 };
 
-export default TextCycle;
+export default TextCycle
