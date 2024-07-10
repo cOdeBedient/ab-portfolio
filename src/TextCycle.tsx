@@ -16,7 +16,7 @@ const TextCycle: React.FC = () => {
 
   return (
     <div style={{ overflow: 'hidden', height: '1em' }}>
-      <AnimatePresence>
+      <AnimatePresence initial={false}>
         <motion.div
           style={{ position: 'absolute' }}
           key={index}
