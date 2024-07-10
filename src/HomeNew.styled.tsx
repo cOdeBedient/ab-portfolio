@@ -245,9 +245,8 @@ export const StyledHomeNew = styled.main`
         .title {
             width: 125%;
         }
-    }
 
-    .button-div {
+        .button-div {
             width: 50%;
             display: flex;
             justify-content: space-evenly;
@@ -262,6 +261,9 @@ export const StyledHomeNew = styled.main`
                 font-size: .95em;
             }
         }
+    }
+
+    
 
     /* @media screen and (max-width: 595px) {
         .background {
