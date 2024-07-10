@@ -264,10 +264,9 @@ export const StyledHomeNew = styled.main`
         .header-with-flower {
             
             button {
-                width: 80px;
+                width: 85px;
                 height: 30px;
                 margin-top: 20px;
-                border: none;
                 font-size: .75em;
             }
 
