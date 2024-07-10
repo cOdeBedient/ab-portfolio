@@ -44,11 +44,11 @@ export const StyledAboutNew = styled.section`
             padding: 4px;
             border-radius: 8px;
             margin-bottom: 10px;
-        }
 
-        &:hover,
-        &:focus {
-            background-color: #cb6e8f !important;
+            &:hover,
+            &:focus {
+                background-color: #cb6e8f !important;
+            }
         }
     }
 

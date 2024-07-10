@@ -7,47 +7,10 @@ export const StyledHomeNew = styled.main`
     overflow: hidden;
     position: relative;
 
-    /* .cycle {
-        width: fit-content;
-        color: #d690a8; 
-        font-size: 3.3em;
-        font-family: "Pacifico", cursive;
-        font-style: normal;
-        font-weight: 100;
-        height: 116px;
-        overflow: hidden;
-        padding-right: 10px;
-   
-    }
-
-    .cycle:after {
-        margin-left: 10px;
-        width: fit-content;
-        animation-name: cycle;
-        animation-duration: 12s;
-        animation-iteration-count: infinite;
-        content: "";
+    .name-and-arrow {
+        position: relative;
     }
     
-
-    @keyframes cycle {
-        0% {
-            content: "Mathlete";
-        }
-        25% {
-            content: "Developer";
-        }
-        50% {
-            content: "Artist";
-        }
-        75% {
-            content: "Nerd";
-        }
-        100% {
-            content: "Mathlete";
-        }
-        } */
-
     .home-socials {
         display: flex;
         flex-direction: column;
@@ -146,9 +109,9 @@ export const StyledHomeNew = styled.main`
     .title {
         display: flex;
         height: 100px;
-        overflow: hidden;
         width: 100%;
         position: relative;
+        overflow: hidden;
 
         h2 {
             margin: 0;
