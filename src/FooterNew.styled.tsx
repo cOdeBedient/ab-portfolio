@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
 export const StyledFooterNew = styled.section`
-    /* height: 50px; */
-    /* position: relative; */
     display: flex;
     flex-direction: column;
 
@@ -13,5 +11,10 @@ export const StyledFooterNew = styled.section`
         background-color: #d690a8;
         padding: 4px;
         border-radius: 8px;
+
+        &:hover,
+        &:focus {
+            background-color: #cb6e8f !important;
+        }
     }
 `

@@ -14,6 +14,20 @@ const TextCycle: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        setIndex(0);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+
   return (
     <div style={{ overflow: 'hidden', height: '1em' }}>
       <AnimatePresence initial={false}>
