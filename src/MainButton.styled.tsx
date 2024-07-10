@@ -5,6 +5,8 @@ export const StyledMainButton = styled.button`
     background-color: #d690a8;
     border-radius: 20px;
     cursor: pointer;
+    text-decoration: none !important;
+    color: black !important;
 
     &:hover,
     &:focus {
