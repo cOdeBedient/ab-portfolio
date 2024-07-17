@@ -22,14 +22,14 @@ interface Backgrounds {
             <section className="main-elements">
                 <div className="header-with-flower">
                     <section className="ab-header">
+                        {/* <div className='click-for-more'>
+                            <img src="/assets/click-for-more-2.png" />
+                        </div> */}
                         <div className="title">
-                            <div className="name-and-arrow">
                                 <h1>Adam Bedient:</h1>
-                            </div>
                             <TextCycle />
                         </div>
                         <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
-                        
                     </section>
                     <div className="button-div">
                         <Link to='/projects/' ><MainButton buttonText={"Projects"}></MainButton></Link>

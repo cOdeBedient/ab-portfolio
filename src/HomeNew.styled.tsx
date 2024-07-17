@@ -10,6 +10,18 @@ export const StyledHomeNew = styled.main`
     .name-and-arrow {
         position: relative;
     }
+
+    .click-for-more {
+        width: 100%;
+        position: relative;
+
+        img {
+            position: absolute;
+            width: 33%;
+            left: 26%;
+            top: -65px;
+        }
+    }
     
     .home-socials {
         display: flex;
