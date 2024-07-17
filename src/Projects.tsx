@@ -6,6 +6,8 @@ import { motion } from "framer-motion"
 
 const Projects: React.FC = () => {
 
+console.log(projectsData)
+
     const projectElements: React.ReactNode[] =
         projectsData.map((project) => {
             return (
