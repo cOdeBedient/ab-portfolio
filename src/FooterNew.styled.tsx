@@ -17,4 +17,10 @@ export const StyledFooterNew = styled.section`
             background-color: #cb6e8f !important;
         }
     }
+
+    @media screen and (max-width: 472px) {
+        img {
+            width: 26px;
+        }
+    }
 `

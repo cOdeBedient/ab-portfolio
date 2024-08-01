@@ -256,6 +256,11 @@ export const StyledHomeNew = styled.main`
     @media screen and (max-width: 685px) {
         .title {
             width: 125%;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px !important;
         }
 
         .button-div {
@@ -299,13 +304,20 @@ export const StyledHomeNew = styled.main`
             justify-content: space-evenly;
         }
 
+        .home-button {
+            img {
+                background-color: #ffffff;
+                width: 26px;
+            }
+        }
+
         .header-with-flower {
             button {
-                width: 97px;
+                width: 105px;
                 height: 33px;
                 margin-top: 20px;
                 margin-right: 0;
-                font-size: .85em;
+                font-size: .9em;
             }
 
             p {
@@ -314,21 +326,15 @@ export const StyledHomeNew = styled.main`
         }
 
         h1 {
-            font-size: 1.7em;
+            font-size: 1.8em;
             padding-left: 2px;
         }
 
         .title {
             justify-content: center;
             margin-right: 120px;
+            
             height: 50px;
         }
     }
-
-    /* @media screen and (max-width: 442px) {
-        .background {
-            left: -132vw;
-        }
-    } */
-
 `

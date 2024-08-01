@@ -16,6 +16,6 @@ export const StyledTextCycle = styled.h2`
     }
 
     @media screen and (max-width: 472px) {
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
 `
