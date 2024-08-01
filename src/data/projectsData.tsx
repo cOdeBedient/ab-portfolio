@@ -8,6 +8,13 @@ let projectsData: { name: string, thumbnail: string, tagline: string, deployed?:
             repo: 'https://github.com/cOdeBedient/destination-banana'
         },
         {
+            name: "Prove-it!",
+            thumbnail: '/assets/project-thumbs/prove-it-thumb.png',
+            tagline: 'Arguing with a friend about how tall Kareem Abdul Jabbar is? Let a robot "prove" your point.',
+            deployed: 'https://prove-it-coral.vercel.app/',
+            repo: 'https://github.com/cOdeBedient/prove-it'
+        },
+        {
             name: "Look at This Snake",
             thumbnail: '/assets/project-thumbs/look-at-this-snake-thumb.png',
             tagline: "The sight of snakes makes you crawl in your skin? This dog will help to desensitize you.",
