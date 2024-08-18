@@ -110,6 +110,7 @@ export const StyledHomeNew = styled.main`
         margin-top: 0px;
         width: fit-content;
         margin-left: -3px;
+        text-wrap: nowrap;
     }
 
     p {
@@ -125,11 +126,12 @@ export const StyledHomeNew = styled.main`
         height: 100px;
         width: 100%;
         position: relative;
-        overflow: hidden;
+        overflow: visible;
 
-        h2 {
+        h3 {
             margin: 0;
             margin-left: 10px;
+            width: fit-content !important;
         }
     }
 
@@ -184,6 +186,7 @@ export const StyledHomeNew = styled.main`
         }
 
         h1 {
+            width: 55%;
             font-size: 2.5em;
             padding-left: 2px;
         }
@@ -227,8 +230,15 @@ export const StyledHomeNew = styled.main`
         }
         
         .title {
+            width: 100%;
             justify-content: center;
-            margin-right: 150px;
+            /* margin-right: 150px; */
+            text-align: left;
+        }
+
+        h1 {
+            width: 55%;
+            text-align: right;
         }
 
         .ab-header {
@@ -255,7 +265,7 @@ export const StyledHomeNew = styled.main`
 
     @media screen and (max-width: 685px) {
         .title {
-            width: 125%;
+            width: 100%;
             margin-bottom: 10px;
         }
 
@@ -331,8 +341,8 @@ export const StyledHomeNew = styled.main`
         }
 
         .title {
-            justify-content: center;
-            margin-right: 120px;
+            /* justify-content: center; */
+            /* margin-right: 120px; */
             
             height: 50px;
         }

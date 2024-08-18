@@ -1,4 +1,4 @@
-import { StyledHomeNew } from './HomeNew.styled'
+import { StyledHomeNew } from './Home.styled'
 import MainButton from './MainButton'
 import NavBar from './NavBar'
 import FooterNew from './FooterNew'
@@ -32,8 +32,8 @@ interface Backgrounds {
                         <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
                     </section>
                     <div className="button-div">
-                        <Link to='/projects/' ><MainButton buttonText={"Projects"}></MainButton></Link>
-                        <Link to='/about/'><MainButton buttonText={"About Me"}></MainButton></Link>
+                        <Link to='/projects/' tabIndex={-1}><MainButton buttonText={"Projects"}></MainButton></Link>
+                        <Link to='/about/' tabIndex={-1}><MainButton buttonText={"About Me"}></MainButton></Link>
                     </div>
                 </div>
             </section>

@@ -1,5 +1,4 @@
-import { StyledProjectNew } from './ProjectNew.styled'
-import { motion } from "framer-motion"
+import { StyledProjectNew } from './Project.styled'
 
 interface ProjectProps {
     name: string,
