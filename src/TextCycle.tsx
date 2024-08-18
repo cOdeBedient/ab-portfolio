@@ -22,6 +22,16 @@ const TextCycle: React.FC = () => {
   //   })
   // }
 
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsReady(true);
+    }, 500)
+
+    return () => clearTimeout(timer);
+  }, []);
+
   var settings = {
     dots: false,
     autoplay: true,
