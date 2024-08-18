@@ -1,8 +1,7 @@
 import React from 'react';
-import Home from './version-1-components/Home'
-import HomeNew from './HomeNew'
-import ProjectsNew from './ProjectsNew'
-import AboutNew from './AboutNew'
+import HomeNew from './Home'
+import ProjectsNew from './Projects'
+import AboutNew from './AboutPage'
 import { Routes, Route } from "react-router-dom"
 import {useState , useEffect} from 'react';
 

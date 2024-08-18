@@ -1,7 +1,9 @@
-import { StyledProjectsNew } from './ProjectsNew.styled'
+import { StyledAboutNew } from './AboutPage.styled'
 import FooterNew from './FooterNew'
-import Projects from './Projects'
+import TechStack from './TechStack'
+import About from './AboutMe'
 import { Link } from 'react-router-dom'
+
 
 interface Backgrounds {
     home: string;
@@ -9,16 +11,17 @@ interface Backgrounds {
     smallHead: string;
   }
   
-  interface ProjectsNewProps {
+  interface AboutNewProps {
     backgrounds: Backgrounds;
   }
   
-  const ProjectsNew: React.FC<ProjectsNewProps> = ({ backgrounds }) => {
+  const AboutNew: React.FC<AboutNewProps> = ({ backgrounds }) => {
     return (
-        <StyledProjectsNew>
-            <img className="background-projects" src={backgrounds.projects} alt="Adam's head" />
+        <StyledAboutNew>
+            <img className="background-about" src={backgrounds.projects} alt="Woods Background" />
             <section className="main-elements">
-                <Projects />
+                <About backgrounds={backgrounds}/>
+                <TechStack />
             </section>
             <div className="footer">
                 <Link to='/' className="home-button">
@@ -26,8 +29,8 @@ interface Backgrounds {
                 </Link>
                 <FooterNew />
             </div>
-        </StyledProjectsNew>
+        </StyledAboutNew>
     )
 }
 
-export default ProjectsNew
+export default AboutNew
