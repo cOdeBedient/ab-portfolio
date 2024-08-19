@@ -16,6 +16,7 @@ interface Backgrounds {
   }
 
   const HomeNew: React.FC<HomeNewProps> = ({ backgrounds }) => {
+    console.log("bghome", backgrounds.home)
     return (
         <StyledHomeNew>
             <img className="background" src={backgrounds.home} alt="Adam's head" />
@@ -27,7 +28,7 @@ interface Backgrounds {
                         </div> */}
                         <div className="title">
                                 <h1>Adam Bedient:</h1>
-                            <TextCycle />
+                                {backgrounds.home && <TextCycle />}
                         </div>
                         <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
                     </section>
