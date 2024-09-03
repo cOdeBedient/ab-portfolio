@@ -9,40 +9,40 @@ import Slider from "react-slick"
 const words = ["[ click... ]", "Developer", "Nerd", "Humanist", "Mathlete", "Creative", "Coder", "Filmmaker", "Artist", "Listener"]
 
 const TextCycle: React.FC = () => {
-  // const [index, setIndex] = useState(0)
+  const [index, setIndex] = useState(0)
 
-  // function cycle() {
-  //   setIndex(prev => {
-  //     if(prev === words.length - 1) {
-  //       prev = 1
-  //     } else {
-  //       prev = (prev + 1) % words.length
-  //     }
-  //     return prev
-  //   })
-  // }
+  function cycle() {
+    setIndex(prev => {
+      if(prev === words.length - 1) {
+        prev = 1
+      } else {
+        prev = (prev + 1) % words.length
+      }
+      return prev
+    })
+  }
 
-  const [isReady, setIsReady] = useState(false);
+  // const [isReady, setIsReady] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsReady(true);
-    }, 500)
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsReady(true);
+  //   }, 500)
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  var settings = {
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 4500,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    vertical: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+  // var settings = {
+  //   dots: false,
+  //   autoplay: true,
+  //   autoplaySpeed: 4500,
+  //   arrows: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   vertical: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1
+  // };
 
   // useEffect(() => {
   //   const intervalId = setInterval(() => {
@@ -54,7 +54,7 @@ const TextCycle: React.FC = () => {
 
   return (
     <StyledTextCycle>
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
           <h3>Filmmaker</h3>
           <h3>Developer</h3>
           <h3>Nerd</h3>
@@ -65,8 +65,8 @@ const TextCycle: React.FC = () => {
           <h3>Filmmaker</h3>
           <h3>Artist</h3>
           <h3>Listener</h3>
-        </Slider>
-        {/* <AnimatePresence initial={false}>
+        </Slider> */}
+        <AnimatePresence initial={false}>
           <motion.div
             onClick={cycle}
             style={{ position: 'absolute' }}
@@ -76,11 +76,11 @@ const TextCycle: React.FC = () => {
             exit={{ y: '80%', opacity: 0 }}
             transition={{ duration: 0.37 }}
           >
-            <StyledTextCycle>
+            <h3>
               {words[index]}
-            </StyledTextCycle>
+            </h3>
           </motion.div>
-        </AnimatePresence> */}
+        </AnimatePresence>
     </StyledTextCycle>
   );
 };
