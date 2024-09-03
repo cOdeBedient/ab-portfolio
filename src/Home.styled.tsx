@@ -126,7 +126,7 @@ export const StyledHomeNew = styled.main`
         height: 100px;
         width: 100%;
         position: relative;
-        overflow: visible;
+        overflow: hidden;
 
         h3 {
             margin: 0;

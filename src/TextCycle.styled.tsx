@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
 export const StyledTextCycle = styled.div`
-    /* height: 200%; */
+    height: 200%;
     width: 260px;
-    overflow: visible;
+    /* overflow: hidden; */
 
     h3 {
         color: #d690a8;
