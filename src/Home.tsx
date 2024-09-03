@@ -27,8 +27,8 @@ interface Backgrounds {
                             <img src="/assets/click-for-more-2.png" />
                         </div> */}
                         <div className="title">
-                                <h1>Adam Bedient:</h1>
-                                {backgrounds.home && <TextCycle />}
+                            <h1>Adam Bedient:</h1>
+                            {backgrounds.home && <TextCycle />}
                         </div>
                         <p className="tagline">I’m a software developer who loves flowers, solving creative problems technically and solving technical problems creatively.</p>
                     </section>
