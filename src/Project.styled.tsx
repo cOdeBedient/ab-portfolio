@@ -59,6 +59,15 @@ export const StyledProjectNew = styled.div`
         font-style: italic;
     }
 
+    .password-text {
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        font-style: italic;
+    }
+
     h2 {
         margin-bottom: 0;
         margin-top: 5px;;

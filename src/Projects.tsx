@@ -23,7 +23,7 @@ interface Backgrounds {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
           >
-            <ProjectNew key={project.name} name={project.name} thumbnail={project.thumbnail} deployed={project.deployed} repo={project.repo} tagline={project.tagline}/>
+            <ProjectNew key={project.name} name={project.name} thumbnail={project.thumbnail} deployed={project.deployed} repo={project.repo} tagline={project.tagline} login={project.login} />
           </motion.div>
         )
     })
