@@ -1,8 +1,4 @@
 import { StyledMainButton } from './MainButton.styled'
-import NavBar from './NavBar'
-import FooterNew from './FooterNew'
-import TextCycle from './TextCycle'
-import { Link } from 'react-router-dom'
 
 interface ButtonProps {
     buttonText: string

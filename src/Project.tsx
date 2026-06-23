@@ -17,9 +17,9 @@ const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, login, 
                     <div className="project-details">
                         <h2>{name}</h2>
                         <div className="deployed-repo">
-                            <a href={deployed} target="_blank">deployed</a>
+                            <a href={deployed} target="_blank" rel="noreferrer">deployed</a>
                             <p className="line">|</p>
-                            <a href={repo} target="_blank">repo</a>
+                            <a href={repo} target="_blank" rel="noreferrer">repo</a>
                         </div>
                         {login && <p className="password-text">{login}</p>}
                     </div>

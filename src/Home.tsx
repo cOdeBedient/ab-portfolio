@@ -1,6 +1,5 @@
 import { StyledHomeNew } from './Home.styled'
 import MainButton from './MainButton'
-import NavBar from './NavBar'
 import FooterNew from './FooterNew'
 import TextCycle from './TextCycle'
 import { Link } from 'react-router-dom'
