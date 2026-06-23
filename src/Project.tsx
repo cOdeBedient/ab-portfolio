@@ -6,9 +6,10 @@ interface ProjectProps {
     tagline: string,
     deployed?: string,
     repo?: string,
+    login?: string | null
 }
 
-const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, tagline }) => {
+const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, login, tagline }) => {
 
     return (
         <StyledProjectNew>
@@ -20,6 +21,10 @@ const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, tagline
                             <p className="line">|</p>
                             <a href={repo} target="_blank">repo</a>
                         </div>
+                        {login && <p className="password-text">{login}</p>}
+                    </div>
+                    <div className="image-container">
+                        <img src={thumbnail} alt="project thumb" />
                     </div>
                 </div>
                 <p>{tagline}</p>
