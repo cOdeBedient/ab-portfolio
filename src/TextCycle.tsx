@@ -1,10 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { StyledTextCycle } from './TextCycle.styled'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-//@ts-ignore
-import Slider from "react-slick"
 
 const words = ["[ click... ]", "Developer", "Nerd", "Humanist", "Mathlete", "Creative", "Coder", "Filmmaker", "Artist", "Listener"]
 

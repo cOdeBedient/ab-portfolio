@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({ backgrounds }) => {
                 whileInView={{ opacity: 1 }}
             >
             <div className="about-section">
-            <img className="ferry-photo" src={backgrounds.smallHead} alt='adam photo on a ferry' />
+            <img className="ferry-photo" src={backgrounds.smallHead} alt='Adam on a ferry' />
             <p>I'm a front-end developer with a math and computer science BA and 15 years experience traveling the country - and the world! - as a documentary filmmaker.<br></br><br></br>
 During my time as a creative storyteller, documentarian, editor, director, and cinematographer, I obtained what I like to consider a masters-level degree in critical thinking and small team collaboration. As a project lead, I was integral to shaping a creative vision, leading meetings from broad and conceptual to granular and administrative, and helping to manage other team members.<br></br><br></br>
 A seasoned storyteller and expert learner, my innate - and acquired! - ability to understand and then convey information to solve problems creatively and collaboratively has paved the runway for my inevitable return to the technical world as a software developer. My passion for logical communication makes me an expert at sniffing out a problem and finding a path forward, while my creativity and ability to lead through listening makes me an ideal team member.<br></br><br></br>
