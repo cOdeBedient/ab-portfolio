@@ -70,7 +70,7 @@ export const StyledProjectNew = styled.div`
 
     h2 {
         margin-bottom: 0;
-        margin-top: 5px;;
+        margin-top: 5px;
         font-size: 6em;
         line-height: 1em;
     }
@@ -79,6 +79,15 @@ export const StyledProjectNew = styled.div`
         color: white !important;
         text-decoration: none !important;
         font-weight: 200;
+    }
+
+    .image-container {
+        width: 40vw;
+        margin-top: 10px;
+
+        img {
+            width: 100%;
+        }
     }
 
     @media screen and (max-width: 1024px) {

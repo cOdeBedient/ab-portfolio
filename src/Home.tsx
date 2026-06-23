@@ -16,7 +16,7 @@ interface Backgrounds {
   }
 
   const HomeNew: React.FC<HomeNewProps> = ({ backgrounds }) => {
-    console.log("bghome", backgrounds.home)
+
     return (
         <StyledHomeNew>
             <img className="background" src={backgrounds.home} alt="Adam's head" />

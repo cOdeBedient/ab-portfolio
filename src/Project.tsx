@@ -23,6 +23,9 @@ const Tech: React.FC<ProjectProps> = ({ name, thumbnail, deployed, repo, login, 
                         </div>
                         {login && <p className="password-text">{login}</p>}
                     </div>
+                    <div className="image-container">
+                        <img src={thumbnail} alt="project thumb" />
+                    </div>
                 </div>
                 <p>{tagline}</p>
         </StyledProjectNew>

@@ -25,7 +25,7 @@ let projectsData: { name: string, thumbnail: string, tagline: string, deployed?:
         {
             name: "bLOOMbABY",
             thumbnail: '/assets/project-thumbs/bloom-baby-thumb.png',
-            tagline: "Plant a 3D flower and watch it grow. Will you breed the next superflower?",
+            tagline: "EXPERIMENTAL. Plant a 3D flower and watch it grow. Will you breed the next superflower?",
             deployed: 'https://bloombabyfe-toms-projects-be041e30.vercel.app/',
             repo: 'https://github.com/2311-capstone-bloom-brothers/bloom-brothers-fe'
         },
