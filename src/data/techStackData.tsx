@@ -1,6 +1,6 @@
 let techStackData: { tech: string, logo: string}[] = 
     [
-        { tech: "React", logo: '/assets/tech-logos/react-logo.png' },
+        { tech: "React / React Native", logo: '/assets/tech-logos/react-logo.png' },
         { tech: "Next.js", logo: '/assets/tech-logos/next-logo.png' },
         { tech: "TypeScript", logo: '/assets/tech-logos/typescript-logo.png' },
         { tech: "Tailwind CSS", logo: '/assets/tech-logos/tailwind-logo.png' },
