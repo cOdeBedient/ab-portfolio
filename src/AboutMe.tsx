@@ -27,7 +27,7 @@ I believe that humanity comes first, a lesson I first learned as a filmmaker, an
 
 During my time as a creative storyteller, documentarian, editor, director, and cinematographer, I obtained what I like to consider a masters-level degree in critical thinking and small team collaboration. As a project lead, I was integral to shaping a creative vision, leading meetings from broad and conceptual to granular and administrative, and helping to manage other team members.<br></br><br></br>
 
-If it sounds like I am speaking your language, or if you know someone I should talk to, please reach out! I would love to connect over a zoom tea-time, or a game of pickleball.</p><br></br><br></br>
+If it sounds like I am speaking your language, or if you know someone I should talk to, please reach out! I would love to connect over a zoom tea-time, or a game of badminton.</p><br></br><br></br>
 <p>adambedient@gmail.com • 315-941-0948</p>
             </div>
             </motion.div>
