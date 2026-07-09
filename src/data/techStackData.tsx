@@ -7,8 +7,7 @@ let techStackData: { tech: string, logo: string}[] =
         { tech: "Framer Motion", logo: '/assets/tech-logos/framer-motion-logo.png' },
         { tech: "Mapbox", logo: '/assets/tech-logos/mapbox-logo.png' },
         { tech: "SCSS", logo: '/assets/tech-logos/scss-logo.png' },
-        { tech: "HTML 5", logo: '/assets/tech-logos/html-5-logo.png' },
-
+        { tech: "Figma", logo: '/assets/tech-logos/figma-logo.png' },
         { tech: "Cypress", logo: '/assets/tech-logos/cypress-logo.png' },
     ]
 
